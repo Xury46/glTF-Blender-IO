@@ -1,0 +1,179 @@
+{
+    "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+    "version": "0.2",
+    "language": "en",
+    "dictionaries": [
+        "Blender Names",
+        "Blender Source Code",
+        "Blender Terms",
+        "Booleans",
+        "CMake Flags",
+        "Common Variable Names",
+        "Companies and Products",
+        "Contractions",
+        "Devices",
+        "File Formats",
+        "Graphics Terms",
+        "Ignore",
+        "Libraries",
+        "Math Terms",
+        "Names",
+        "Programming Terms",
+        "Python Dunder",
+        "Python Project",
+        "Swizzles",
+        "Unicode Blocks"
+    ],
+    "useGitignore": true,
+    "ignorePaths": [
+        "./release/freedesktop/blender.desktop",
+        "./scripts/modules/_bl_i18n_utils/settings.py",
+        "./scripts/modules/_bl_i18n_utils/utils_spell_check.py",
+        "./tools/check_source/check_spelling_config.py",
+        "./tools/check_source/check_spelling.py",
+        "./tools/utils/git_data_canonical_authors.py",
+        "./release/datafiles/**",
+        "./extern/**",
+        "./lib/**",
+        "./locale/**",
+        "./tests/**",
+        "./typings",
+        "**/CMakeLists.txt",
+        "**/.gitignore",
+        "**/.schemas",
+        "**/.venv",
+        "**/*.lock",
+        "**/tests/**"
+    ],
+    // "patterns": [
+    //     {
+    //     "name": "hash-comment",
+    //     "pattern": "/#.*/g"
+    //     }
+    // ],
+    // "languageSettings": [
+    //     {
+    //     "languageId": "c,cpp",
+    //     "includeRegExpList": ["string", "CStyleComment"]
+    //     },
+    //     {
+    //     "languageId": "python",
+    //     "includeRegExpList": ["string", "CStyleComment", "hash-comment"]
+    //     }
+    // ],
+    "allowCompoundWords": true,
+    "dictionaryDefinitions": [
+        {
+            "name": "CMake Flags",
+            "path": ".dictionaries/cmake_flags.txt",
+            "description": "Words used for configuring cmake files.",
+            "noSuggest": true,
+        },
+        {
+            "name": "Common Variable Names",
+            "path": ".dictionaries/common_vars.txt",
+            "description": "Shorted words that are common to use as variable names.",
+            "noSuggest": true,
+        },
+        {
+            "name": "Companies and Products",
+            "path": ".dictionaries/companies_and_products.txt",
+            "description": "Names of companies and their products.",
+        },
+        {
+            "name": "Unicode Blocks",
+            "path": ".dictionaries/unicode_blocks.txt",
+            "description": "Unicode block glyph categories.",
+            "noSuggest": true,
+        },
+        {
+            "name": "Blender Names",
+            "path": ".dictionaries/blender_names.txt",
+            "description": "Names of people mentioned in the Blender source code.",
+            "noSuggest": true,
+        },
+        {
+            "name": "Blender Source Code",
+            "path": ".dictionaries/blender_src.txt",
+            "description": "Words that appear in the Blender source code.",
+            "noSuggest": true,
+        },
+        {
+            "name": "Blender Terms",
+            "path": ".dictionaries/blender_terms.txt",
+            "description": "Words that have specific meaning in Blender.",
+        },
+        {
+            "name": "Booleans",
+            "path": ".dictionaries/booleans.txt",
+            "description": "Permutations of short letter variable names used for booleans operations.",
+        },
+        {
+            "name": "Contractions",
+            "path": ".dictionaries/contractions.txt",
+            "description": "Shortened and contracted words, typically used in function names.",
+            "noSuggest": true,
+        },
+        {
+            "name": "Devices",
+            "path": ".dictionaries/devices.txt",
+            "description": "Input devices, computer parts, and buttons.",
+        },
+        {
+            "name": "File Formats",
+            "path": ".dictionaries/file_formats.txt",
+            "description": "File formats commonly used in media production.",
+        },
+        {
+            "name": "Graphics Terms",
+            "path": ".dictionaries/graphics_terms.txt",
+            "description": "Common words in computer graphics applications.",
+        },
+        {
+            "name": "Ignore",
+            "path": ".dictionaries/ignore.txt",
+            "description": "Misspelled words that should be ignored.",
+            "noSuggest": true,
+        },
+        {
+            "name": "Libraries",
+            "path": ".dictionaries/libraries.txt",
+            "description": "Names of third party libraries and functions.",
+        },
+        {
+            "name": "Math Terms",
+            "path": ".dictionaries/math_terms.txt",
+            "description": "Words from mathematics.",
+        },
+        {
+            "name": "Names",
+            "path": ".dictionaries/names.txt",
+            "description": "Names of people (typically referenced in the context of 3D graphics).",
+        },
+        {
+            "name": "Programming Terms",
+            "path": ".dictionaries/programming_terms.txt",
+            "description": "Common words in computer programming.",
+        },
+        {
+            "name": "Python Dunder",
+            "path": ".dictionaries/python_dunder.txt",
+            "description": "Python __dunder__ methods.",
+            "noSuggest": true,
+        },
+        {
+            "name": "Python Project",
+            "path": ".dictionaries/python_project.txt",
+            "description": "Words related to Python projects.",
+            "noSuggest": true,
+        },
+        {
+            "name": "Swizzles",
+            "path": ".dictionaries/swizzles.txt",
+            "description": "Combinations of RGBA and WXYZ used to 'swizzle' in 3D graphics."
+        }
+    ],
+    "addWords": false,
+    "ignoreWords": [
+    ]
+}
